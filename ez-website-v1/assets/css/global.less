@@ -23,6 +23,7 @@
 }
 
 *, *:after, *:before {
+  position: relative;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -58,12 +59,71 @@ html, body {
 
 .cbp-fbscroller {
 
+  /* Brand */
+  .ez-logo {
+    position: fixed;
+    display: block;
+    top: 0;
+    left: 0;
+    margin: 20px 0 0 20px;
+    padding: 0;
+    width: 210px;
+    height: 100px;
+    background-color: #fff;
+    z-index: 101;
+  }
+
+  /* Information */
+  .ez-information {
+    position: fixed;
+    display: block;
+    top: 0;
+    right: 0;
+    margin: 20px 20px 0 0;
+    padding: 0;
+    width: 140px;
+    height: 100px;
+    text-align: right;
+    z-index: 101;
+
+    a {
+      display: inline-block;
+      top: 18px;
+      margin: 0 5px 0 0;
+      padding: 0;
+      width: 65px;
+      height: 65px;
+      line-height: 65px;
+      text-align: center;
+      border: 2px solid #fff;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      -o-border-radius: 50%;
+      border-radius: 50%;
+      background-color: transparent;
+      color: #fff;
+
+      &:hover, &:active {
+        background-color: #fff;
+        color: #111;
+      }
+
+      &:last-child {
+        margin: 0;
+      }
+
+    }
+
+  }
+
+  /* Navigation */
   & > nav {
-    position:fixed;
+    position: fixed;
     margin: 0;
-    padding: 20px 0 10px 0;
+    padding: 50px 0 0;
     width: 100%;
-    font-size: 20px;
+    font-size: 18px;
     text-align: center;
     z-index: 100;
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.3)), color-stop(16%,rgba(0,0,0,0.1)), color-stop(31%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0)));
