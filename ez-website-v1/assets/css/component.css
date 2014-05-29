@@ -192,12 +192,7 @@
 
   .info-keys {display: none;}}
 
-@media screen and (max-width: 35em) {
-  .grid li {width: 50%;}}
-
-@media screen and (max-width: 24em) {
-  .grid li {width: 100%;}}
-
+c
 
 /* --------- IOS SLIDER --------- */
 .sliderContainer {

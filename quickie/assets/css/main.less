@@ -1,6 +1,7 @@
 html, body {
   width:100%;
   height:100%;
+  min-height: 500px;
   margin:0;
   padding:0;
   font-family:"Montserrat", HelveticaNeue-Light, Arial, sans-serif;
@@ -47,20 +48,22 @@ html {
         }
       }
 
-      .overlaymask {
+      #circlesize{
         width:340px;
         height:340px;
+      }
+
+      .overlaymask {
+        #circlesize;
         position: absolute;
         overflow: hidden;
         .mask{
-          width:340px;
-          height:340px;
+          #circlesize;
           position: absolute;
           background:url(../images/mask.png) no-repeat;
         }
         .overlay{
-          width:340px;
-          height:340px;
+          #circlesize;
           border-radius:170px;
           background:#16a085;
           margin-top:-340px;
@@ -111,6 +114,7 @@ html {
     }
 
     .footer{
+      background:#34495e;
       position:fixed;
       bottom:20px;
       width:100%;
@@ -130,4 +134,46 @@ html {
     }
 
   }
+}
+
+
+@media screen and (max-width: 320px){
+  .wrapper{
+    .container{
+      .content{
+        width:320px;
+
+        #circlesize{
+          width:280px;
+          height: 280px;
+        }
+        .overlaymask {
+          margin:0 20px 0 20px;
+          #circlesize;
+
+          .mask {
+            #circlesize;
+            background-size: 280px 280px !important;
+          }
+
+          .overlay {
+            #circlesize;
+
+            p{
+              font-size:20px;
+              padding:100px 0 0 0;
+              line-height: 30px;
+            }
+          }
+        }
+        video{
+          #circlesize;
+        }
+      }
+    }
+  }
+
+
+
+
 }
