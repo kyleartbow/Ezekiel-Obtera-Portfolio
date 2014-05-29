@@ -116,7 +116,8 @@ html {
     .footer{
       background:#34495e;
       position:fixed;
-      bottom:20px;
+      bottom:0;
+      padding:10px 0 10px 0;
       width:100%;
       margin:0 auto;
       font-weight: 400;
@@ -142,11 +143,23 @@ html {
     .container{
       .content{
         width:320px;
+        padding:10px 0;
 
         #circlesize{
           width:280px;
           height: 280px;
         }
+
+        h1{
+          font-size:24px;
+          line-height: 24px;
+          margin:0 0 10px 0;
+
+          span{
+            font-size: 11px;
+          }
+        }
+
         .overlaymask {
           margin:0 20px 0 20px;
           #circlesize;
@@ -170,10 +183,9 @@ html {
           #circlesize;
         }
       }
+      .footer{
+        box-shadow: 0 -5px 10px 5px #34495e;
+      }
     }
   }
-
-
-
-
 }
