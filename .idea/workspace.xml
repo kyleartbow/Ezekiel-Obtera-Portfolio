@@ -2,23 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8731373c-3c66-4958-99e8-f742a9e3ca48" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Program Files (x86)\Wamp\www\Ezekiel-Obtera-Portfolio\.idea\github.iml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Program Files (x86)\Wamp\www\Ezekiel-Obtera-Portfolio\ez-website-v1\.idea\.name" afterPath="" />
-      <change type="DELETED" beforePath="C:\Program Files (x86)\Wamp\www\Ezekiel-Obtera-Portfolio\ez-website-v1\.idea\encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Program Files (x86)\Wamp\www\Ezekiel-Obtera-Portfolio\ez-website-v1\.idea\misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Program Files (x86)\Wamp\www\Ezekiel-Obtera-Portfolio\ez-website-v1\.idea\modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Program Files (x86)\Wamp\www\Ezekiel-Obtera-Portfolio\ez-website-v1\.idea\scopes\scope_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Program Files (x86)\Wamp\www\Ezekiel-Obtera-Portfolio\ez-website-v1\.idea\v2.iml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Program Files (x86)\Wamp\www\Ezekiel-Obtera-Portfolio\ez-website-v1\.idea\vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Program Files (x86)\Wamp\www\Ezekiel-Obtera-Portfolio\ez-website-v1\.idea\watcherTasks.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Program Files (x86)\Wamp\www\Ezekiel-Obtera-Portfolio\ez-website-v1\.idea\workspace.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ez-website-v1/assets/css/global.css" afterPath="$PROJECT_DIR$/ez-website-v1/assets/css/global.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ez-website-v1/assets/css/global.less" afterPath="$PROJECT_DIR$/ez-website-v1/assets/css/global.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
+      <change type="DELETED" beforePath="C:\Program Files (x86)\Wamp\www\Ezekiel-Obtera-Portfolio\ez-website-v1\assets\images\large\1.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Program Files (x86)\Wamp\www\Ezekiel-Obtera-Portfolio\ez-website-v1\assets\images\large\2.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Program Files (x86)\Wamp\www\Ezekiel-Obtera-Portfolio\ez-website-v1\assets\images\large\3.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Program Files (x86)\Wamp\www\Ezekiel-Obtera-Portfolio\ez-website-v1\assets\images\large\4.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Program Files (x86)\Wamp\www\Ezekiel-Obtera-Portfolio\ez-website-v1\assets\images\thumb\1.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Program Files (x86)\Wamp\www\Ezekiel-Obtera-Portfolio\ez-website-v1\assets\images\thumb\2.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Program Files (x86)\Wamp\www\Ezekiel-Obtera-Portfolio\ez-website-v1\assets\images\thumb\3.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Program Files (x86)\Wamp\www\Ezekiel-Obtera-Portfolio\ez-website-v1\assets\images\thumb\4.png" afterPath="" />
+      <change type="MOVED" beforePath="C:\Program Files (x86)\Wamp\www\Ezekiel-Obtera-Portfolio\ez-website-v1\assets\css\global.css" afterPath="$PROJECT_DIR$/ez-website-v1/assets/css/styles.css" />
+      <change type="MOVED" beforePath="C:\Program Files (x86)\Wamp\www\Ezekiel-Obtera-Portfolio\ez-website-v1\assets\css\global.less" afterPath="$PROJECT_DIR$/ez-website-v1/assets/css/styles.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ez-website-v1/assets/css/component.css" afterPath="$PROJECT_DIR$/ez-website-v1/assets/css/component.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ez-website-v1/index.html" afterPath="$PROJECT_DIR$/ez-website-v1/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Ezekiel-Obtera-Portfolio.iws" />
@@ -42,10 +37,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="global.less" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ez-website-v1/assets/css/global.less">
+      <file leaf-file-name="styles.less" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ez-website-v1/assets/css/styles.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="172" column="14" selection-start="3495" selection-end="3495" vertical-scroll-proportion="0.831312" vertical-offset="2170" max-vertical-offset="3077">
+            <state line="11" column="16" selection-start="193" selection-end="193" vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="3757">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="component.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ez-website-v1/assets/css/component.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="41" column="16" selection-start="855" selection-end="855" vertical-scroll-proportion="0.5997795" vertical-offset="153" max-vertical-offset="3553">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ez-website-v1/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="7905">
               <folding />
             </state>
           </provider>
@@ -66,6 +79,9 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/ez-website-v1/assets/css/global.less" />
+        <option value="$PROJECT_DIR$/ez-website-v1/assets/css/styles.less" />
+        <option value="$PROJECT_DIR$/ez-website-v1/index.html" />
+        <option value="$PROJECT_DIR$/ez-website-v1/assets/css/component.css" />
       </list>
     </option>
   </component>
@@ -120,6 +136,60 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ezekiel-Obtera-Portfolio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ezekiel-Obtera-Portfolio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ez-website-v1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ezekiel-Obtera-Portfolio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ezekiel-Obtera-Portfolio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ez-website-v1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ezekiel-Obtera-Portfolio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ezekiel-Obtera-Portfolio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ez-website-v1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -134,14 +204,6 @@
     <property name="FullScreen" value="false" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
-      <method />
-    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -152,15 +214,23 @@
       <option name="showConsoleOnStdOut" value="false" />
       <method />
     </configuration>
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
       <setting name="configLocationType" value="CONFIG_FILE" />
       <setting name="settingsFile" value="" />
       <setting name="serverType" value="INTERNAL" />
       <setting name="preferredDebugBrowser" value="CHROME" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
@@ -185,17 +255,17 @@
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12864584" sideWeight="0.5" order="-1" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12864584" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295099" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -215,9 +285,37 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ez-website-v1/assets/css/global.less">
+    <entry file="file://$PROJECT_DIR$/ez-website-v1/assets/css/styles.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="172" column="14" selection-start="3495" selection-end="3495" vertical-scroll-proportion="0.831312" vertical-offset="2170" max-vertical-offset="3077">
+        <state line="172" column="14" selection-start="3495" selection-end="3495" vertical-scroll-proportion="0.0" vertical-offset="2170" max-vertical-offset="3077">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ez-website-v1/assets/css/fontawesome.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="3" selection-start="165" selection-end="165" vertical-scroll-proportion="0.055434782" vertical-offset="0" max-vertical-offset="920">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ez-website-v1/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="7905">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ez-website-v1/assets/css/styles.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="16" selection-start="193" selection-end="193" vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="3757">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ez-website-v1/assets/css/component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="16" selection-start="855" selection-end="855" vertical-scroll-proportion="0.5997795" vertical-offset="153" max-vertical-offset="3553">
           <folding />
         </state>
       </provider>
