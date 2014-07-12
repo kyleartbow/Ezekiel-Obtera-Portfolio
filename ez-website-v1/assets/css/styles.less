@@ -55,6 +55,43 @@ html, body {
 
 }
 
+/* ------- Isotope ------- */
+
+@animDuration: 0.5s; // change duration value to whatever you like
+
+.isotope {
+
+  -webkit-transition-property: height, width;
+  -moz-transition-property: height, width;
+  transition-property: height, width;
+
+  -webkit-transition-duration: @animDuration;
+  -moz-transition-duration: @animDuration;
+  transition-duration: @animDuration;
+
+  .isotope-item {
+
+    z-index: 2;
+    -webkit-transition-property: -webkit-transform, opacity;
+    -moz-transition-property: -moz-transform, opacity;
+    transition-property: transform, opacity;
+
+    -webkit-transition-duration: @animDuration;
+    -moz-transition-duration: @animDuration;
+    transition-duration: @animDuration;
+
+    top: 0 !important;
+    left: 0 !important;
+
+    &.isotope-hidden {
+      z-index: 1;
+      pointer-events: none;
+    }
+
+  }
+
+}
+
 /* ------- Main Nav ------- */
 
 .cbp-fbscroller {

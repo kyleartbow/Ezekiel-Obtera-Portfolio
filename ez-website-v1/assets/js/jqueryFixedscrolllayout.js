@@ -70,8 +70,6 @@ var cbpFixedScrollLayout = (function() {
 		// Second one when we scroll up: the current navigation link gets updated. A "new section" is reached when it occupies more than 70% of the viewport
 		config.$sections.waypoint( function( direction ) {
 			if( direction === 'down' ) {
-                //changeNav( $( this ) );
-                console.log("direction should be down: " + direction);
                 $( '#cbp-fbscroller > nav:first > a').removeClass( 'cbp-fbcurrent' );
                 switch ( navPortfolio ) {
                     case "web":
@@ -93,8 +91,6 @@ var cbpFixedScrollLayout = (function() {
             }
 		}, { offset: '30%' } ).waypoint( function( direction ) {
 			if( direction === 'up' ) {
-                //changeNav( $( this ) );
-                console.log("direction should be up: " + direction);
                 $( '#cbp-fbscroller > nav:first > a').removeClass( 'cbp-fbcurrent' );
                 $( '#cbp-fbscroller > nav:first > a#btFeatured').addClass( 'cbp-fbcurrent' );
             }

@@ -41,13 +41,13 @@
             </div>
 
             <!-- Navigation -->
-            <nav>
+            <nav class="portfolioFilter">
                 <a href="#fbsection1" id="btFeatured" class="cbp-fbcurrent">Featured</a>
-                <a href="#fbsection2" id="btAll">All Works</a>
-                <a href="#fbsection2" id="btWeb">Web</a>
-                <a href="#fbsection2" id="btMobile">Mobile</a>
-                <a href="#fbsection2" id="btAnimation">Animation</a>
-                <a href="#fbsection2" id="btOthers">Others</a>
+                <a href="#fbsection2" id="btAll" data-filter="*" class="current">All Works</a>
+                <a href="#fbsection2" id="btWeb" data-filter=".web">Web</a>
+                <a href="#fbsection2" id="btMobile" data-filter=".mobile">Mobile</a>
+                <a href="#fbsection2" id="btAnimation" data-filter=".animation">Animation</a>
+                <a href="#fbsection2" id="btOthers" data-filter=".others">Others</a>
             </nav>
 
             <!-- Slide Show -->
@@ -70,11 +70,11 @@
                         <!-- grid-wrap start -->
                         <section class="grid-wrap">
 
-                            <ul class="grid">
+                            <ul class="grid portfolioContainer">
 
                                 <li class="grid-sizer"></li>
 
-                                <li>
+                                <li class="web">
                                     <figure>
                                         <img src="assets/images/thumb/1.jpg" alt="img01"/>
                                         <figcaption>
@@ -84,7 +84,7 @@
                                     </figure>
                                 </li>
 
-                                <li>
+                                <li class="mobile">
                                     <figure>
                                         <img src="assets/images/thumb/2.jpg" alt="img02"/>
                                         <figcaption>
@@ -94,7 +94,7 @@
                                     </figure>
                                 </li>
 
-                                <li>
+                                <li class="animation">
                                     <figure>
                                         <img src="assets/images/thumb/3.jpg" alt="img03"/>
                                         <figcaption>
@@ -104,7 +104,7 @@
                                     </figure>
                                 </li>
 
-                                <li>
+                                <li class="others">
                                     <figure>
                                         <img src="assets/images/thumb/4.jpg" alt="img04"/>
                                         <figcaption>
@@ -116,7 +116,7 @@
 
                                 <!-- COPIES -->
 
-                                <li>
+                                <li class="web">
                                     <figure>
                                         <img src="assets/images/thumb/1.jpg" alt="img01"/>
                                         <figcaption>
@@ -126,7 +126,7 @@
                                     </figure>
                                 </li>
 
-                                <li>
+                                <li class="mobile">
                                     <figure>
                                         <img src="assets/images/thumb/2.jpg" alt="img02"/>
                                         <figcaption>
@@ -136,7 +136,7 @@
                                     </figure>
                                 </li>
 
-                                <li>
+                                <li class="animation">
                                     <figure>
                                         <img src="assets/images/thumb/3.jpg" alt="img03"/>
                                         <figcaption>
@@ -146,7 +146,7 @@
                                     </figure>
                                 </li>
 
-                                <li>
+                                <li class="others">
                                     <figure>
                                         <img src="assets/images/thumb/4.jpg" alt="img04"/>
                                         <figcaption>
@@ -156,7 +156,7 @@
                                     </figure>
                                 </li>
 
-                                <li>
+                                <li class="web">
                                     <figure>
                                         <img src="assets/images/thumb/1.jpg" alt="img01"/>
                                         <figcaption>
@@ -166,7 +166,7 @@
                                     </figure>
                                 </li>
 
-                                <li>
+                                <li class="mobile">
                                     <figure>
                                         <img src="assets/images/thumb/2.jpg" alt="img02"/>
                                         <figcaption>
@@ -176,7 +176,7 @@
                                     </figure>
                                 </li>
 
-                                <li>
+                                <li class="animation">
                                     <figure>
                                         <img src="assets/images/thumb/3.jpg" alt="img03"/>
                                         <figcaption>
@@ -186,7 +186,7 @@
                                     </figure>
                                 </li>
 
-                                <li>
+                                <li class="others">
                                     <figure>
                                         <img src="assets/images/thumb/4.jpg" alt="img04"/>
                                         <figcaption>
@@ -196,7 +196,7 @@
                                     </figure>
                                 </li>
 
-                                <li>
+                                <li class="web">
                                     <figure>
                                         <img src="assets/images/thumb/1.jpg" alt="img01"/>
                                         <figcaption>
@@ -206,7 +206,7 @@
                                     </figure>
                                 </li>
 
-                                <li>
+                                <li class="mobile">
                                     <figure>
                                         <img src="assets/images/thumb/2.jpg" alt="img02"/>
                                         <figcaption>
@@ -216,7 +216,7 @@
                                     </figure>
                                 </li>
 
-                                <li>
+                                <li class="animation">
                                     <figure>
                                         <img src="assets/images/thumb/3.jpg" alt="img03"/>
                                         <figcaption>
@@ -226,7 +226,7 @@
                                     </figure>
                                 </li>
 
-                                <li>
+                                <li class="others">
                                     <figure>
                                         <img src="assets/images/thumb/4.jpg" alt="img04"/>
                                         <figcaption>
@@ -441,18 +441,64 @@
     <script src="assets/js/jqueryMasonry.js"></script>
     <script src="assets/js/jqueryClassie.js"></script>
     <script src="assets/js/jqueryGridgallery.js"></script>
+    <script src="assets/js/jqueryIsotope.js"></script>
 
     <script>
         $(function() {
+
+            // fixed scrolling
             cbpFixedScrollLayout.init();
+
+            // iosslider
             $('.iosSlider').iosSlider({
                 snapToChildren: true,
                 desktopClickDrag: true,
                 responsiveSlides: true,
                 autoSlide: true
             });
+
+            // isotop
+            var $container = $('.portfolioContainer');
+            $container.isotope({
+                filter: '*',
+                animationOptions: {
+                    duration: 500,
+                    easing: 'linear',
+                    queue: false
+                }
+            });
+
+            $('.portfolioFilter a').click(function(){
+                $('.portfolioFilter .current').removeClass('current');
+                $(this).addClass('current');
+
+                var selector = $(this).attr('data-filter');
+                $container.isotope({
+                    filter: selector,
+                    animationOptions: {
+                        duration: 500,
+                        easing: 'linear',
+                        queue: false
+                    }
+                });
+                return false;
+            });
+
+            setTimeout(function(){
+                $container.isotope({
+                    filter: "*",
+                    animationOptions: {
+                        duration: 500,
+                        easing: 'linear',
+                        queue: false
+                    }
+                });
+            }, 1);
+
+            // grid gallery
+            new CBPGridGallery( document.getElementById( 'grid-gallery' ) );
+
         });
-        new CBPGridGallery( document.getElementById( 'grid-gallery' ) );
     </script>
 
   </body>
