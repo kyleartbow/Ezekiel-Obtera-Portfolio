@@ -27,6 +27,11 @@
   
     <body>
 
+    <!-- preloader -->
+    <div id="preloader">
+        <div id="status"></div>
+    </div>
+
     <div class="container">
 
         <div id="cbp-fbscroller" class="cbp-fbscroller">
@@ -446,6 +451,11 @@
     <script>
         $(function() {
 
+            // preloader
+            $("#status").delay(500).fadeOut(500, function () {
+                $("#preloader").fadeOut(500);
+            });
+
             // fixed scrolling
             cbpFixedScrollLayout.init();
 
@@ -457,7 +467,7 @@
                 autoSlide: true
             });
 
-            // isotop
+            // isotope
             var $container = $('.portfolioContainer');
             $container.isotope({
                 filter: '*',
@@ -484,6 +494,7 @@
                 return false;
             });
 
+            $('html, body').scrollTop($("#fbsection2").offset().top);
             setTimeout(function(){
                 $container.isotope({
                     filter: "*",
@@ -493,7 +504,8 @@
                         queue: false
                     }
                 });
-            }, 1);
+                $('html, body').scrollTop($("#fbsection1").offset().top);
+            }, 250);
 
             // grid gallery
             new CBPGridGallery( document.getElementById( 'grid-gallery' ) );

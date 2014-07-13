@@ -21,7 +21,7 @@ var cbpFixedScrollLayout = (function() {
 		// the body element
 		$body : $( 'html, body' ),
 		// the body animation speed
-		animspeed : 650,
+		animspeed : 500,
 		// the body animation easing (jquery easing)
 		animeasing : 'easeInOutExpo'
 	};

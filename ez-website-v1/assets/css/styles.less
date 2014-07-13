@@ -33,6 +33,30 @@ html, body, .container, .cbp-fbscroller, .cbp-fbscroller section {
   height: @fullHeight;
 }
 
+#preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #111;
+  z-index: 999;
+
+  #status {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: -20px 0 0 -20px;
+    padding: 0;
+    width: 40px;
+    height: 40px;
+    background-image: url(../images/status.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+}
+
 /* ------- Styles ------- */
 
 html, body {
