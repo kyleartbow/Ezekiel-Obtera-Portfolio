@@ -1,0 +1,31 @@
+
+/*
+    Example media queries (reduce number of columns and change slideshow layout)
+    responsive columns; see "Element sizing" on http://masonry.desandro.com/options.html
+    Media quesry start from phablet to tablet & desktop
+*/
+
+@media only screen and (min-width: 651px) {
+  .slideshow li {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    margin: 0;}
+  .slideshow li figure img {
+    width: auto;
+    margin: 0 auto;
+    max-width: 100%;}
+  .slideshow nav span,  .slideshow nav span.nav-close {
+    font-size: 1.8em;
+    padding: 0.3em;
+    color:#000;}
+  .slideshow nav span.nav-prev, .slideshow nav span.nav-next {color:#000;}
+
+  .info-keys {display: none;}
+
+  .grid li {
+    width: 33.3%;
+  }
+
+}
