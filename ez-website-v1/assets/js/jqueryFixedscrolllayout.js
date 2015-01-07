@@ -4,7 +4,7 @@
  *
  * Licensed under the MIT license.
  * http://www.opensource.org/licenses/mit-license.php
- * 
+ *
  * Copyright 2013, Codrops
  * http://www.codrops.com
  */
@@ -38,6 +38,9 @@ var cbpFixedScrollLayout = (function() {
 		// click on a navigation link: the body is scrolled to the position of the respective section
 		config.$navlinks.on( 'click', function() {
             $( '#cbp-fbscroller > nav:first > a').removeClass( 'cbp-fbcurrent' );
+            $('#navbg').animate({
+                opacity:0.8
+            },1000);
             if( $(this).index() > 0 ) {
                 config.currentLink = 1;
                 switch ( navPortfolio ) {
@@ -53,23 +56,27 @@ var cbpFixedScrollLayout = (function() {
                     case "others":
                         $( '#cbp-fbscroller > nav:first > a#btOthers').addClass( 'cbp-fbcurrent' );
                         break;
-                    default:
+                    case "all":
                         $( '#cbp-fbscroller > nav:first > a#btAll').addClass( 'cbp-fbcurrent' );
+                        break;
+                    default:
+                        $( '#cbp-fbscroller > nav:first > a#btFeatured').addClass( 'cbp-fbcurrent' );
                         break;
                 }
             } else {
                 config.currentLink = 0;
                 config.$navlinks.eq( config.currentLink ).addClass( 'cbp-fbcurrent' );
             }
-            $('html, body').animate({ scrollTop:$(this.hash).offset().top }, config.animspeed, config.animeasing);
+            $('html, body').animate({scrollTop:$(this.hash).offset().top }, config.animspeed, config.animeasing);
 			return false;
-		} );
+		});
 
 		// 2 waypoints defined:
 		// First one when we scroll down: the current navigation link gets updated. A "new section" is reached when it occupies more than 70% of the viewport
 		// Second one when we scroll up: the current navigation link gets updated. A "new section" is reached when it occupies more than 70% of the viewport
 		config.$sections.waypoint( function( direction ) {
 			if( direction === 'down' ) {
+                $('#navbg').animate({opacity:0.8},500);
                 $( '#cbp-fbscroller > nav:first > a').removeClass( 'cbp-fbcurrent' );
                 switch ( navPortfolio ) {
                     case "web":
@@ -84,17 +91,24 @@ var cbpFixedScrollLayout = (function() {
                     case "others":
                         $( '#cbp-fbscroller > nav:first > a#btOthers').addClass( 'cbp-fbcurrent' );
                         break;
-                    default:
+                    case "all":
                         $( '#cbp-fbscroller > nav:first > a#btAll').addClass( 'cbp-fbcurrent' );
                         break;
+                    default:
+                        $( '#cbp-fbscroller > nav:first > a#btFeatured').addClass( 'cbp-fbcurrent' );
+                        break;
+
                 }
+
             }
-		}, { offset: '30%' } ).waypoint( function( direction ) {
+		}, { offset: '50%' } ).waypoint( function( direction ) {
 			if( direction === 'up' ) {
+                $('#navbg').animate({opacity:0},500);
                 $( '#cbp-fbscroller > nav:first > a').removeClass( 'cbp-fbcurrent' );
                 $( '#cbp-fbscroller > nav:first > a#btFeatured').addClass( 'cbp-fbcurrent' );
+
             }
-		}, { offset: '-30%' } );
+		}, { offset: '-50%' } );
 
 		// on window resize: the body is scrolled to the position of the current section
 		$( window ).on( 'debouncedresize', function() {
@@ -104,7 +118,7 @@ var cbpFixedScrollLayout = (function() {
                 $('html, body').animate({ scrollTop:$("#fbsection1").offset().top }, config.animspeed, config.animeasing);
             }
 		} );
-		
+
 	}
 
 	return { init : init };
